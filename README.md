@@ -1,2 +1,2 @@
-# Nojuk.githab.io
+# nojuk.githab.io
 first project
