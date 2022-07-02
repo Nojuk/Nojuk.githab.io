@@ -1,0 +1,230 @@
+@import './base/base';
+@import './base/mixins';
+@import './base/variables';
+@import './main.css';
+@import './fonts.css';
+
+.search-friend {
+    width: 236px;
+    height: 205px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.friend-foto {
+    width: 120px;
+    height: 120px;
+}
+
+.friend-name-text {
+    font-family: 'Kanit-700';
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 17px;
+    color: $four-black;
+}
+
+.hobby-text {
+    font-family: 'Kanit-300';
+    font-size: 14px;
+    line-height: 14px;
+    color: $six-black;
+    text-align: center;
+}
+
+.paragraph-text {
+    font-family: 'Kanit-700';
+    letter-spacing: 1px;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: $four-black;
+}
+
+.container {
+    margin: 0 auto;
+    width: 320px;
+    height: 100%;
+
+
+    &-header {
+        width: 320px;
+        height: 540px;
+        background-image: url(../images/Bitmap.png);
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    &-login {
+        width: 153px;
+        height: 56px;
+        border: 1px black solid;
+        display: flex;
+        justify-content: space-between;
+
+
+        &-login1 {
+            width: 70px;
+            height: 36px;
+        }
+
+        &-login-2 {
+            width: 90px;
+            height: 36px;
+            border-radius: 25%;
+        }
+    }
+
+
+
+    &-main {
+        margin-top: 35px;
+        width: 320px;
+        height: 781px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+
+        &-paragraph {
+
+            &-text {
+                font-family: 'Kanit-700';
+                letter-spacing: 2px;
+                font-size: 22px;
+                line-height: 27px;
+                text-align: center;
+                color: $four-black;
+            }
+        }
+
+        &-block1 {
+            width: 300px;
+            height: 240px;
+            background-image: url(../images/Step\ 1\ image.png);
+            background-size: 100% 100%;
+            margin-top: 13px;
+
+        }
+
+        &-block2 {
+            width: 300px;
+            height: 240px;
+            background-image: url(../images/Step\ 2\ image.png);
+            margin-top: 10px;
+
+        }
+
+        &-block3 {
+            width: 300px;
+            height: 240px;
+            background-image: url(../images/Step\ 3\ image.png);
+            margin-top: 10px;
+
+        }
+    }
+
+    &-search {
+        width: 320px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 36px;
+
+        &-paragraph {
+            width: 280px;
+            height: 54px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &-text {
+                font-family: 'Kanit-700';
+                letter-spacing: 1px;
+                font-size: 22px;
+                line-height: 27px;
+                text-align: center;
+                color: $four-black;
+            }
+        }
+
+        &-friends1 {
+            margin-top: 14px;
+
+            &-foto1 {
+                background-image: url(../images/Avatar.png);
+                background-repeat: no-repeat;
+            }
+        }
+
+        &-friends2 {
+            &-foto2 {
+                background-image: url(../images/Avatar2.png);
+                background-repeat: no-repeat;
+            }
+        }
+
+        &-friends3 {
+                margin-top: 35px;
+            &-foto3 {
+                background-image: url(../images/Avatar3.png);
+                background-repeat: no-repeat;
+            }
+        }
+
+        &-friends4 {
+            &-foto4 {
+                background-image: url(../images/Avatar4.png);
+                background-repeat: no-repeat;
+            }
+        }
+
+        &-partners {
+            width: 280px;
+            height: 40px;
+            border: solid 2px $search-color;
+            border-radius: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 36px;
+
+            &-nosex {
+                font-family: 'Kanit-700';
+                font-size: 14px;
+                line-height: 17px;
+                color: $search-color;
+                letter-spacing: 1px;
+                text-decoration: none;
+            }
+        }
+    }
+
+    &-services {
+        width: 320px;
+        height: 100%;
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &-paragraph{
+            width: 280px;
+            height: 54px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &-text{
+                text-align: center;
+            }
+        }
+    }
+}
