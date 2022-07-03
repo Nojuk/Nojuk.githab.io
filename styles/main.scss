@@ -43,7 +43,11 @@
     text-align: center;
     color: $four-black;
 }
-
+.tourism-foto{
+    width: 300px;
+    height: 120px;
+    margin-top: 10px;
+}
 .container {
     margin: 0 auto;
     width: 320px;
@@ -215,6 +219,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
+        background-color: aqua;
 
         &-paragraph{
             width: 280px;
@@ -225,6 +231,39 @@
             &-text{
                 text-align: center;
             }
+        }
+        &-tourism{
+            width: 320px;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            &-foto1{
+                margin-top: 33px;
+                background-image: url(../images/Sport.png);
+            }
+            &-foto2{
+                background-image: url(../images/Healath2.png);
+            }
+            &-foto3{
+                background-image: url(../images/Extreme.png);
+            }
+            &-foto4{
+                background-image: url(../images/Games.png);
+            }
+            &-foto5{
+                background-image: url(../images/Culture.png);
+            }
+            &-foto6{
+                background-image: url(../images/Culture\ Copy.png);
+                background-size: 300px;
+            }
+            &-foto7{
+                background-image: url(../images/Games\ Copy.png);
+            }
+            
         }
     }
 }
