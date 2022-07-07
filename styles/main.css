@@ -403,6 +403,26 @@ textarea {
   width: 300px;
   height: 120px;
   margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-block {
+  width: 200px;
+  height: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-text {
+  font-family: "Kanit-600";
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  color: white;
+  letter-spacing: 2px;
 }
 
 .container {
@@ -414,25 +434,105 @@ textarea {
   width: 320px;
   height: 540px;
   background-image: url(../images/Bitmap.png);
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 10px;
+  flex-direction: column;
 }
-.container-login {
+.container-header-login {
   width: 153px;
   height: 56px;
-  border: 1px black solid;
   display: flex;
   justify-content: space-between;
+  margin-right: 20px;
+  margin-bottom: 70px;
 }
-.container-login-login1 {
-  width: 70px;
+.container-header-login-none {
+  display: none;
+}
+.container-header-login-login1 {
+  width: 54px;
   height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.container-login-login-2 {
+.container-header-login-login2 {
   width: 90px;
   height: 36px;
-  border-radius: 25%;
+  border-radius: 40px;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-header-login-login2-text {
+  font-family: "Kanit-400";
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+  text-decoration: none;
+}
+.container-header-brand {
+  width: 152px;
+  height: 24px;
+}
+.container-header-brand-text {
+  font-family: "Kanit-700";
+  font-size: 20px;
+  line-height: 44px;
+  color: white;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.container-header-center {
+  width: 281px;
+  height: 214px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 6px;
+  margin-bottom: 100px;
+}
+.container-header-center-menu {
+  width: 272px;
+  height: 74px;
+}
+.container-header-center-menu-text {
+  font-family: "Kanit-700";
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: white;
+}
+.container-header-center-find {
+  width: 280px;
+  height: 49px;
+}
+.container-header-center-find-text {
+  font-family: "Kanit-300";
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #E3E3E3;
+}
+.container-header-center-search {
+  margin-bottom: 34px;
+  width: 280px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background: #FF4E50;
+  border-radius: 40px;
+  margin-top: 6px;
+  margin-left: 4px;
 }
 .container-main {
   margin-top: 35px;
@@ -455,20 +555,120 @@ textarea {
   width: 300px;
   height: 240px;
   background-image: url(../images/Step\ 1\ image.png);
+  background-repeat: no-repeat;
   background-size: 100% 100%;
   margin-top: 13px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.container-main-block1-step {
+  width: 70px;
+  height: 20px;
+  background-color: #FF4E50;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 39px;
+  margin-left: 20px;
+}
+.container-main-block1-step-text {
+  font-family: "Kanit-400";
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  color: white;
+}
+.container-main-block1-paragraph {
+  width: 250px;
+  height: 58px;
+  margin-left: 20px;
+}
+.container-main-block1-paragraph-text {
+  font-family: "Kanit-700";
+  font-size: 24px;
+  line-height: 14px;
+  color: white;
+}
+.container-main-block1-content {
+  width: 250px;
+  height: 58px;
+  margin-left: 20px;
+}
+.container-main-block1-content-text {
+  font-family: "Kanit-300";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+  color: #E3E3E3;
 }
 .container-main-block2 {
   width: 300px;
   height: 240px;
   background-image: url(../images/Step\ 2\ image.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.container-main-block2-step {
+  width: 70px;
+  height: 20px;
+  background-color: #FF4E50;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 39px;
+  margin-left: 20px;
+}
+.container-main-block2-step-text {
+  font-family: "Kanit-400";
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  color: white;
+}
+.container-main-block2-paragraph {
+  width: 250px;
+  height: 29px;
+  margin-left: 20px;
+}
+.container-main-block2-paragraph-text {
+  font-family: "Kanit-700";
+  font-size: 24px;
+  line-height: 14px;
+  color: white;
+}
+.container-main-block2-content {
+  width: 250px;
+  height: 58px;
+  margin-left: 20px;
+}
+.container-main-block2-content-text {
+  font-family: "Kanit-300";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+  color: #E3E3E3;
 }
 .container-main-block3 {
   width: 300px;
   height: 240px;
   background-image: url(../images/Step\ 3\ image.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
 }
 .container-search {
   width: 320px;
@@ -542,7 +742,6 @@ textarea {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: aqua;
 }
 .container-services-paragraph {
   width: 280px;
@@ -584,4 +783,564 @@ textarea {
 }
 .container-services-tourism-foto7 {
   background-image: url(../images/Games\ Copy.png);
+}
+.container-input {
+  width: 320px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 35px;
+}
+.container-input-paragraph {
+  width: 280px;
+  height: 54px;
+}
+.container-input-paragraph-text {
+  text-align: center;
+}
+.container-input-question {
+  width: 280px;
+  height: 24px;
+  margin-top: 18px;
+}
+.container-input-question-text {
+  font-family: "Kanit-300";
+  font-size: 18px;
+  line-height: 14px;
+  text-align: center;
+  color: #666666;
+}
+.container-input-placeholder {
+  width: 280px;
+  height: 40px;
+  border-radius: 3px;
+  border: 1px solid #D4D4D4;
+  color: #666666;
+  margin-top: 6px;
+}
+.container-input-searchParters {
+  width: 280px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background: #FF4E50;
+  border-radius: 40px;
+  margin-top: 6px;
+  margin-left: 4px;
+}
+.container-input-searchParters-button {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+}
+.container-footer {
+  width: 320px;
+  height: 100%;
+  border-top: 3px solid #FF4E50;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container-footer-paragraph {
+  width: 300px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 19px;
+}
+.container-footer-paragraph-dream {
+  color: #FF4E50;
+  font-family: "Kanit-400";
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.container-footer-company {
+  width: 300px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.container-footer-company-text {
+  font-family: "Kanit-700";
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #444444;
+  letter-spacing: 1px;
+}
+.container-footer-info {
+  width: 280px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container-footer-info .info-text {
+  font-family: "Kanit-300";
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  color: #999999;
+  text-decoration: none;
+  margin: 0 5px;
+  letter-spacing: 1px;
+}
+.container-footer-partnerts {
+  width: 300px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6px;
+}
+.container-footer-partnerts-text {
+  font-family: "Kanit-700";
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #444444;
+}
+.container-footer-design {
+  width: 300px;
+  height: 53px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 6px;
+  flex-direction: column;
+}
+.container-footer-design-text {
+  font-family: "Kanit-700";
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  color: #CCCCCC;
+}
+.container-footer-design-imag {
+  background-image: url(../images/Bitmap1.png);
+  width: 110px;
+  height: 24px;
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    width: 768px;
+    height: 100%;
+  }
+  .container-header {
+    width: 768px;
+    height: 700px;
+    background-size: 768px 700px;
+  }
+  .container-header-login {
+    width: 670px;
+    height: 76px;
+  }
+  .container-header-login-login1 {
+    margin-left: 370px;
+    margin-top: 7px;
+  }
+  .container-header-login-login2 {
+    width: 90px;
+    margin-top: 7px;
+  }
+  .container-header-brand {
+    display: none;
+  }
+  .container-header-center {
+    width: 470px;
+    height: 352.5px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 30px;
+  }
+  .container-header-center-menu {
+    width: 470px;
+    height: 146px;
+  }
+  .container-header-center-menu-text {
+    font-size: 52px;
+    line-height: 63px;
+  }
+  .container-header-center-find {
+    width: 470px;
+    height: 25px;
+  }
+  .container-header-center-find-text {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .container-header-center-search {
+    width: 225px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 74px;
+  }
+  .container-main {
+    width: 768px;
+    height: 461px;
+    margin-top: 93px;
+  }
+  .container-search {
+    width: 492px;
+    height: 605px;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 95px;
+  }
+  .container-search-paragraph {
+    width: 415px;
+    height: 27px;
+    margin-bottom: 20px;
+  }
+  .container-search-paragraph-friends4 {
+    margin-left: 40px;
+  }
+  .container-search-partners {
+    width: 180px;
+    height: 40px;
+  }
+  .container-services {
+    width: 748px;
+    height: 1031px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 90px;
+  }
+  .container-services-paragraph {
+    width: 350px;
+    height: 27px;
+  }
+  .container-services-tourism {
+    width: 748px;
+    height: 989px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 22px;
+  }
+  .container-services-tourism-foto1, .container-services-tourism-foto2, .container-services-tourism-foto3, .container-services-tourism-foto4, .container-services-tourism-foto7 {
+    width: 236px;
+    height: 310px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0px;
+  }
+  .container-services-tourism-foto5, .container-services-tourism-foto6 {
+    width: 492px;
+    height: 310px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0px;
+  }
+  .container-input {
+    width: 482px;
+    height: 158px;
+    margin: 0 auto;
+    margin-top: 103px;
+  }
+  .container-input-paragraph {
+    width: 303px;
+    height: 27px;
+  }
+  .container-input-question {
+    margin-top: 51px;
+    width: 415px;
+    height: 24px;
+  }
+  .container-input-searchParters {
+    width: 172px;
+    height: 40px;
+    float: right;
+    margin-left: 10px;
+  }
+  .container-footer {
+    width: 768px;
+    height: 224px;
+    margin: 100px 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: inherit;
+  }
+  .container-footer-paragraph {
+    width: 144px;
+    margin-top: 30px;
+  }
+  .container-footer-company {
+    margin: 35px 0 auto;
+    height: 17px;
+    width: 144px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .container-footer-info {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 156px;
+    width: 144px;
+    text-align: start;
+  }
+  .container-footer-info-text {
+    text-align: start;
+  }
+  .container-footer-partnerts {
+    width: 110px;
+    margin-top: 35px;
+  }
+  .container-footer-design {
+    width: 110px;
+    margin-top: 35px;
+  }
+
+  .form {
+    margin-top: 20px;
+  }
+
+  .mains-block1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+  }
+
+  .main-block {
+    width: 236px;
+    height: 400px;
+    margin: 0 10px;
+  }
+
+  .wrapper-friends {
+    display: flex;
+    height: 550px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .search-friend {
+    width: 236px;
+    height: 205px;
+  }
+
+  .friend4 {
+    margin-top: 0px;
+  }
+
+  .wrapper-tourism {
+    width: 748px;
+    height: 310px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .container-header-center-search {
+    width: 225px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-header-login-none {
+    display: block;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+  .container-header {
+    width: 100%;
+    height: 700px;
+    background-size: 100% 100%;
+  }
+  .container-header-login {
+    width: 940px;
+  }
+  .container-header-login-login1 {
+    margin-left: 570px;
+  }
+  .container-header-login-login2 {
+    margin-right: 40px;
+  }
+  .container-main {
+    width: 940px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 89px;
+  }
+  .container-main-paragraph-text {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .container-main-block1 {
+    width: 300px;
+    height: 400px;
+    background-size: 100% 100%;
+  }
+  .container-main-block2 {
+    width: 300px;
+    height: 400px;
+    background-size: 100% 100%;
+  }
+  .container-main-block3 {
+    width: 300px;
+    height: 400px;
+    background-size: 100% 100%;
+  }
+  .container-search {
+    width: 941px;
+    height: 361px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 86px;
+  }
+  .container-search-paragraph {
+    width: 491px;
+    height: 32px;
+    margin-bottom: 30px;
+  }
+  .container-search-paragraph-text {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .container-search-friends1 {
+    width: 221px;
+    height: 205px;
+    margin: 0 5px;
+  }
+  .container-search-friends2 {
+    width: 221px;
+    height: 205px;
+    margin: 0 5px;
+  }
+  .container-search-friends3 {
+    width: 221px;
+    height: 205px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 5px;
+  }
+  .container-search-friends4 {
+    width: 221px;
+    height: 205px;
+    margin: 0 5px;
+  }
+  .container-search-partners {
+    width: 180px;
+    height: 60px;
+  }
+  .container-services {
+    width: 940px;
+    height: 1031px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  .container-services-paragraph {
+    width: 413px;
+    height: 32px;
+  }
+  .container-services-paragraph-text {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .container-services-tourism {
+    width: 940px;
+    height: 989px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 22px;
+  }
+  .container-services-tourism-foto1, .container-services-tourism-foto2, .container-services-tourism-foto3, .container-services-tourism-foto4, .container-services-tourism-foto7 {
+    width: 300px;
+    height: 310px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0 px;
+  }
+  .container-services-tourism-foto5, .container-services-tourism-foto6 {
+    width: 620px;
+    height: 310px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0px;
+  }
+  .container-input {
+    width: 482px;
+    height: 158px;
+    margin: 0 auto;
+    margin-top: 96px;
+  }
+  .container-input-paragraph {
+    width: 358px;
+    height: 32px;
+  }
+  .container-input-paragraph-text {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .container-footer {
+    width: 1440px;
+    height: 224px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .container-footer-design {
+    margin-right: 80px;
+  }
+  .container-footer-paragraph {
+    margin-top: 40px;
+    margin-left: 70px;
+  }
+  .container-footer-company {
+    margin-top: 40px;
+  }
+  .container-footer-partnerts {
+    margin-top: 40px;
+    margin-right: 70px;
+  }
+
+  .wrapper-friends {
+    display: flex;
+    height: 361px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .wrapper-tourism {
+    width: 940px;
+    height: 310px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 11px;
+  }
 }/*# sourceMappingURL=main.css.map */
